@@ -43,6 +43,13 @@
             <artifactId>spring-boot-starter-webmvc</artifactId>
         </dependency>
 
+        <!-- Swagger / OpenAPI : springdoc v3.2.x pour Spring Boot 4.1.x
+             (la version 2.1.0 du cours est pour Spring Boot 3 et ne marche pas ici) -->
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>3.2.0</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
